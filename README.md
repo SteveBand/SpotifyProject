@@ -1,1 +1,1 @@
-my Spotify responsive web project useing React and Spotify Api
+my Spotify responsive web project useing React.js and Spotify Api
