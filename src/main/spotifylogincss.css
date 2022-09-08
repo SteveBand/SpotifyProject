@@ -1,0 +1,24 @@
+.div {
+  max-width: 64vw;
+  height: 47rem;
+  display: flex;
+  place-items: center;
+  transform: translateX(55%);
+}
+
+.content {
+  width: max-content;
+  justify-self: center;
+}
+
+button {
+  padding: 2rem 7rem;
+  border-radius: 5rem;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+  font-weight: 700;
+}
