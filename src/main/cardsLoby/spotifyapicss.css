@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .loby {
   max-width: 104.24rem;
   height: 20rem;
@@ -87,3 +88,93 @@ p {
 .card-detail p {
   padding-right: 0.75rem;
 }
+=======
+.loby {
+  max-width: 104.24rem;
+  height: 20rem;
+  background-color: transparent;
+  margin: 1.4rem 0 5rem 0;
+  position: relative;
+  display: flex;
+}
+
+p {
+  padding-right: 0.75rem;
+  overflow: clip;
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+.title {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  right: 2rem;
+  color: white;
+}
+
+.card-loby {
+  display: inline-flex;
+  max-width: 104.24rem;
+  height: 19rem;
+  margin-top: 2.5rem;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.card-content {
+  width: 13.5rem;
+  height: 21rem;
+  background-color: #242424;
+  margin: auto 0rem;
+  border-radius: 0.75rem;
+  text-align: right;
+  font-family: Prompt;
+  cursor: pointer;
+}
+
+.card-loby a {
+  width: 13.5rem;
+  height: 21rem;
+  background-color: #242424;
+  margin: auto 0rem;
+  border-radius: 0.75rem;
+  text-align: right;
+  font-family: Prompt;
+  cursor: pointer;
+}
+
+.card-content:hover {
+  transition: all 1s ease-in-out;
+  animation: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 60%;
+  width: 85%;
+  margin: 1rem auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+.card-detail {
+  overflow: hidden;
+  color: whitesmoke;
+  opacity: 0.75;
+}
+
+.card-detail h4 {
+  padding-right: 0.75rem;
+  padding-bottom: 0.2rem;
+}
+
+.card-detail p {
+  padding-right: 0.75rem;
+}
+>>>>>>> fb76bbd39e2dc5799870514b55808637c8a6d9c3
