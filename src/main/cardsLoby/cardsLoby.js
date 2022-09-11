@@ -11,6 +11,7 @@ export const CardsLoby = () => {
     console.log(token);
   }
   useEffect(() => {}, [token]);
+
   return (
     <div>
       {!token ? (

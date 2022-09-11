@@ -5,7 +5,7 @@ export const SignIn = () => {
   const clientId = "207b9e1d3b1a43ae8e2db07b831e372e";
   const auth_endPoint = "https://accounts.spotify.com/authorize";
   const responseType = "token";
-  const redirect_url = "http://localhost:3000/";
+  const redirect_url = "https://sbproject.netlify.app/";
 
   return (
     <>
