@@ -5,7 +5,7 @@ import "../topNav/topnavcss.css";
 export const TopNav = () => {
   const { token } = useContext(Content);
 
-  const redirect_url = "http://localhost:3000/";
+  const redirect_url = "https://sbproject.netlify.app/callback";
 
   const logout = () => {
     window.localStorage.removeItem("token");
