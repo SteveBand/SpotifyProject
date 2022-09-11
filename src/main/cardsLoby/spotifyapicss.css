@@ -9,9 +9,9 @@
 
 p {
   padding-right: 0.75rem;
-  overflow: clip;
   color: whitesmoke;
   opacity: 0.7;
+  overflow: hidden;
 }
 
 .title {
@@ -53,11 +53,12 @@ p {
   text-align: right;
   font-family: Prompt;
   cursor: pointer;
+  overflow: hidden;
 }
 
-.card-content:hover {
-  transition: all 1s ease-in-out;
-  animation: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+.card-loby a:hover {
+  transition: all 300ms ease;
+  padding: 0.15%;
 }
 
 .card-img {

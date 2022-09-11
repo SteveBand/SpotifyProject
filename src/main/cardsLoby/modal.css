@@ -9,7 +9,6 @@
   display: flex;
   place-items: center;
   justify-items: center;
-  visibility: hidden;
 }
 
 .modal-container {
@@ -25,10 +24,7 @@
   border-radius: 1.5rem;
   justify-content: space-evenly;
   overflow-y: scroll;
-}
-
-.show-modal {
-  visibility: visible;
+  transition: all 0.3s linear;
 }
 
 .search-btn {
@@ -69,6 +65,24 @@
 .img-holder {
   border-radius: 1.4rem;
   margin-bottom: 1rem;
+}
+
+.fibel-enter {
+  opacity: 0;
+}
+
+.fibel-enter-active {
+  opacity: 1;
+  transition: opacity 600ms;
+}
+
+.fibel-exit {
+  opacity: 1;
+}
+
+.fibel-exit-active {
+  opacity: 0;
+  transition: bounce 0.3ms 600ms;
 }
 
 ::-webkit-scrollbar {

@@ -3,7 +3,7 @@ import { CardsHipHop, CardsMood, CardsRock, CardsUpdated } from "./spotifyApi";
 import { Modal } from "../cardsLoby/modal";
 import { SignIn } from "../spotifylogin";
 import { Content } from "../../context";
-
+import { CSSTransition } from "react-transition-group";
 export const CardsLoby = () => {
   const { showModal, setShowModal, token } = useContext(Content);
 

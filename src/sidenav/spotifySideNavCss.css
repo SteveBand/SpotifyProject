@@ -1,7 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    font-family: 'Prompt', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Prompt", sans-serif;
+}
+
+.side-nav {
+  width: 15.7rem;
+  background-color: black;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  height: 7rem;
+  position: relative;
+  right: 0;
+}
+
+.logo-img {
+  height: 34%;
+  width: 9rem;
+  position: absolute;
+  right: 1.6rem;
+  top: 1.85rem;
+}
+
+.nav-items {
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  text-align: right;
+}
+
+.nav-items ul {
+  list-style: none;
+}
+
+.nav-items ul a {
+  color: #a39da2;
+  text-decoration-line: none;
+}
+
+.nav-items ul a:hover {
+  transition: all 800ms ease;
+  color: white;
+  font-size: 112%;
 }

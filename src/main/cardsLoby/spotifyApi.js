@@ -49,7 +49,9 @@ export const CardsUpdated = () => {
 ////////MOOD LOBY ////////
 
 export const CardsMood = () => {
-  const url = "https://api.spotify.com/v1/browse/categories/mood/playlists";
+  const url =
+    "https://api.spotify.com/v1/browse/categories/edm_dance/playlists";
+  const url2 = "https://api.spotify.com/v1/browse/categories";
   const { data, setData } = useFetch(url);
 
   useEffect(() => {
@@ -65,7 +67,7 @@ export const CardsMood = () => {
   return (
     <div className="loby">
       <div className="title">
-        <h2>mood</h2>
+        <h2>edm dance</h2>
       </div>
       <div className="card-loby">
         {data &&
