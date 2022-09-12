@@ -59,7 +59,6 @@ export const Modal = () => {
 
   useEffect(() => {}, [input]);
 
-  //if (!showModal) return null;
   return ReactDOM.createPortal(
     <CSSTransition
       in={showModal}
